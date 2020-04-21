@@ -24,6 +24,7 @@ h1 {
 .hero__content {
   width: 70%;
   margin-bottom: 3em;
+  font-size: 1.313rem;
 }
 
 .container {
@@ -32,12 +33,24 @@ h1 {
   margin: 0 auto;
 }
 
+.three-col {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.two-col {
+  width: 100%;
+  padding: 2em 0;
+  background: #23424a;
+  color: white;
+  text-align: center;
+}
+
 .header-button {
   border: none;
   border-radius: 100px;
   color: #23424a;
   background-color: #38cfd9;
-  mix-blend-mode: normal;
   padding: 0.75em 2em;
   cursor: pointer;
   font-weight: 900;
@@ -49,11 +62,20 @@ h1 {
   filter: brightness(1.2);
 }
 
-.row {
+.flex {
   display: flex;
+  /* gap: 100px; */
 }
 
 .col {
-  margin: 10px;
   width: 100%;
+}
+
+.col + .col {
+  margin-left: 1.875rem;
+}
+
+.accent-text--purple {
+  color: #87629a;
+  font-size: 2.25rem;
 }
