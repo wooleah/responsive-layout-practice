@@ -15,6 +15,10 @@ h1 {
   font-size: 3rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 .hero {
   background: #23424a;
   color: white;
@@ -64,6 +68,7 @@ h1 {
 
 .flex {
   display: flex;
+  flex-direction: row;
   /* gap: 100px; */
 }
 
@@ -73,6 +78,13 @@ h1 {
 
 .col + .col {
   margin-left: 1.875rem;
+}
+
+.col--left {
+  width: 100%;
+}
+.col--right {
+  width: 100%;
 }
 
 .accent-text--purple {
