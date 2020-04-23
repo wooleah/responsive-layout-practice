@@ -72,42 +72,35 @@ h1 {
   align-self: flex-start;
 }
 
-.mid-section {
-  padding: 3rem 0;
-}
-
 .row {
   display: flex;
   justify-content: space-between;
 }
 
-.col--left {
+.main {
+  margin-top: 3em;
+}
+
+.primary-content {
   width: 62%;
   color: #136c72;
 }
 
-.col--left h1 {
-  font-size: 36px;
-}
-
-.col--right {
+.sidebar {
   width: 32%;
   text-align: center;
   font-size: 21px;
+  padding: 1em;
+  background-color: #136c72;
+  color: white;
 }
 
-.col__content {
-  width: 80%;
-  margin: 0 auto;
+.section-title {
+  font-size: 36px;
 }
 
 .content__section + .content__section {
   padding-top: 1em;
-}
-
-.green-theme {
-  background-color: #136c72;
-  color: white;
 }
 
 .hero p {
