@@ -95,7 +95,7 @@ header {
   display: flex;
 
   font-size: 0.9rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .nav__list--primary {
@@ -160,4 +160,21 @@ header {
   text-align: center;
   color: #fff;
   background-color: #136c72;
+}
+
+@media (max-width: 900px) {
+  .row {
+    display: block;
+  }
+
+  .hero__text,
+  .hero__img,
+  .primary-content,
+  .sidebar {
+    width: 100%;
+  }
+
+  .hero__img {
+    margin-top: 2em;
+  }
 }
