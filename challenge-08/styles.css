@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -48,8 +48,9 @@ section {
 .hero__content h1 {
   color: #824936;
   font-family: "Playfair Display", serif;
-  font-size: 60px;
+  font-size: 2.5rem;
   margin: 0;
+  line-height: 1.1;
 }
 
 .section__title {
